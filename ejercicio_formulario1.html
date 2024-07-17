@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="respuesta.html" method="get">
+        <label for="nombre">Escribe tu nombre</label>
+        <input type="text" placeholder="Escriba su nombre" name="nombre"/> 
+        <br>
+        <br>
+        <label for="apellidos" >Escribe tus apellidos</label>
+        <input type="text" placeholder="Escribe tus appellidos" name="apellidos"/>
+        <br>
+        <br>
+        <label for="email">Escribe tu e-mail</label>
+        <input type="email" name="emial"/>
+        <br>
+        <br>
+        <label for="valoracion">Que valoracion das a la publicacion</label>
+        <br>
+        <input type="radio" name ="valoracion" value="0">0
+        <input type="radio" name ="valoracion" value="1">1
+        <input type="radio" name ="valoracion" value="2">2
+        <input type="radio" name ="valoracion" value="3">3
+        <input type="radio" name ="valoracion" value="4">4
+        <input type="radio" name ="valoracion" value="5">5
+        <br>
+        <br>
+        <label for="asignaturas">¿Que asignaturas estudiaste?</label>
+        <br>
+        <input type="checkbox" name="html" value="html" >html
+        <input type="checkbox" name="css" value="css">css
+        <input type="checkbox" name="JavaScript" value="JavaScript">JavaScript
+        <br>
+        <br>
+        <label for="alineacion">Selecciona tu alineacion ideal</label>
+        <select name="alineacion" size="5" width="50%">
+            <option value="cristiano">Cristiano Ronaldo</option>
+            <option value="messi">Leonel Messi</option>
+            <option value="pele">OsNacimiento Pele</option>
+            <option value="maradona"> Maradona</option>
+            <option value="zidane">Zinedine Zidane</option>
+        </select>
+        <br>
+        <br>
+        <label for="mejoras">¿Que mejorarías en este curso?</label>
+        <textarea name="mejoras" rows="4" cols="50"></textarea>
+        <input type="submit" name="mejoras">
+    </form>
+</body>
+</html>
