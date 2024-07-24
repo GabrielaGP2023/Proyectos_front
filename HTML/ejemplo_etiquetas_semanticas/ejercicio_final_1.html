@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <label for="nombre">Nombre:</label>
+      <input
+        type="text"
+        id="nombre"
+        name="nombre"
+        required
+        autofocus
+        size="30"
+        maxlength="20"
+      /><br />
+      <label for="correo">Mail:</label>
+      <input type="mail" id="correo" name="correo" required /><br />
+      <label for="pass">Contraseña:</label>
+      <input type="password" id="pass" name="pass" maxlength="8" /><br />
+      <label for="url">URL:</label>
+      <input
+        type="url"
+        id="url"
+        name="url"
+        placeholder="Escribe la
+        URL"
+      /><br />
+      <label for="fecha">Fecha:</label>
+      <input type="date" id="fecha" name="fecha" /><br />
+      <label for="tiempo">Tiempo:</label>
+      <input type="time" id="tiempo" name="tiempo" /><br />
+      <label for="fechahora">Fecha y hora:</label>
+      <input type="datetime-local" id="fechahora" name="fechahora" /><br />
+      <label for="mes">Mes:</label>
+      <input type="month" id="mes" name="mes" /><br />
+      <label for="semana">Semana:</label>
+      <input type="week" id="semana" name="semana" /><br />
+      <label for="numero">Numero (-10 y 10):</label>
+      <input type="number" id="numero" name="numero" min="-10" max="10" /><br />
+      <label for="tel">Telefono:</label>
+      <input type="tel" id="tel" name="tel" /><br />
+      <label for="buscar">Buscar:</label>
+      <input type="search" id="buscar" name="buscar" /><br />
+      <label for="favcolor">Color favorito:</label>
+      <input type="color" id="favcolor" name="favcolor" /><br />
+      <label for="edad">Edad (18 y 65):</label>
+      <input type="range" id="edad" name="edad" min="18" max="65" /><br />
+      <p>Bloque preferido:</p>
+      <input type="radio" id="bloque3" name="bloque" value="bloque3" />
+      <label for="bloque3">Bloque 3</label><br />
+      <input type="radio" id="bloque4" name="bloque" value="bloque4" checked />
+      <label for="bloque4">Bloque 4</label><br />
+      <p>
+        Temas mas interesantes:<br />
+        <input type="checkbox" id="b3t5" name="b3t5" value="b3t5" />
+        <label for="b3t6">B3T6</label><br />
+        <input type="checkbox" id="b3t6" name="b3t6" value="b3t6" />
+        <label for="b3t6">B3T6</label><br />
+        
+        <input type="checkbox" id="b3t7" name="b3t7" value="b3t7" />
+        <label for="b3t7">B3T7</label><br />
+        <input type="checkbox" id="b3t8" name="b3t8" value="b3t8" />
+        <label for="b3t8">B3T8</label><br />
+        <input type="checkbox" id="b2t4" name="b2t4" value="b2t4" checked />
+        <label for="b2t4">B2T4</label><br />
+        <label for="temafav">Tema favorito:</label>
+        <select id="temafav">
+          <option value="-1" selected>Seleccione un tema</option>
+          <optgroup label="Bloque 1">
+            <option value="b1t1">B1T1</option>
+            <option value="b1t2">B1T2</option>
+            <option value="b1t3">B1T3</option>
+          </optgroup>
+          <optgroup label="Bloque 2">
+            <option value="b2t2">B2T2</option>
+            <option value="b2t4">B2T4</option>
+            <option value="b2t5">B2T5</option>
+          </optgroup>
+          <optgroup label="Bloque 3">
+            <option value="b3t1">B3T1</option>
+            <option value="b3t2">B3T2</option>
+            <option value="b3t3">B3T3</option>
+          </optgroup>
+        </select>
+        <br />
+        <textarea id="obs" name="obs" rows="30" cols="20"> </textarea><br />
+        <input type="reset" value="LIMPIAR" /><br />
+        <input type="submit" value="ENVIAR" /><br />
+      </p>
+    </form>
+  </body>
+</html>
